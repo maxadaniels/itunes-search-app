@@ -1,0 +1,96 @@
+/* SearchComponent.css */
+.search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  /* Style the search input and button together */
+  .search-input {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"] {
+    padding: 8px;
+    margin-right: 10px; /* Add margin between input and button */
+  }
+  
+/* Target the button specifically by its class */
+.search-input button {
+    background-color: #007bff; /* Blue background color */
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  .search-input button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  /* Style the table */
+  .results-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  
+  
+  /* Style table headers */
+  .results-table th {
+    background-color: #007bff;
+    color: white;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  /* Style table rows */
+  .results-table tr {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Style alternating table rows for better readability */
+  .results-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+    color: black;
+  }
+  
+  /* Style table cells */
+  .results-table td {
+    padding: 12px;
+    vertical-align: top;
+  }
+
+  /* Style the media select dropdown */
+  .media-type-selector {
+    display: flex;
+    align-items: center;
+  }
+  
+  .media-type-selector label {
+    margin-right: 10px;
+  }
+  
+  .media-type-selector select {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  /* Style the "Favorites" button */
+.favorites-button {
+    background-color: #007bff; /* Blue background color */
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  .favorites-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
